@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="example suite 1" verbose="1" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="example suite 1" verbose="2" >
+  <parameter name="browser" value="chrome"/>
   <test name="Regression suite 1" >
     <classes>
-      <class name="Testng.OpenGoogle"/>
-      <class name="Testng.OpenGooogle"/>
-      <class name="Testng.Priorityexamples"/>
+      <class name="Testng.DecideBrowser"/>
+      <!-- <class name="Testng.OpenGooogle"/>
+      <class name="Testng.Priorityexamples"/> -->
     </classes>
  </test>
 </suite>
